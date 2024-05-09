@@ -73,8 +73,8 @@ func main() {
 	/*
 		Finally, we want to write the answer to the standard output
 	*/
-	fmt.Println(futureValue)
-	fmt.Println(futureRealValue)
+	fmt.Println("Future Value:", futureValue)
+	fmt.Println("Future Value (adjusted for inflation):", futureRealValue)
 }
 
 /*
